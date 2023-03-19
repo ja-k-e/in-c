@@ -2,8 +2,6 @@
 
 A Pen created on CodePen.io. Original URL: [https://codepen.io/jak_e/pen/NrjdLY](https://codepen.io/jak_e/pen/NrjdLY).
 
-This only performs well in Google Chrome, Firefox, and Safari.
-
 [“In C”](https://en.wikipedia.org/wiki/In_C) is a musical piece intended to be played by a variable amount of performers. The piece is divided into 53 segments that are to be played, “consecutively with each performer having the freedom to  determine how many times he or she will repeat each pattern before moving on to the next.” 
 
 Performers are expected to stay within two or three patterns of each other. Once each performer is on the last segment, each performer repeats the last pattern until everyone arrives there, and then they each drop out one by one. This performance is truncated from the preferred 45-90 seconds per segment to 7.5-15 seconds per segment if played at 120 bpm.
