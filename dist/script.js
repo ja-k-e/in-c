@@ -5,7 +5,10 @@ document.documentElement.addEventListener('mousedown', () => {
 });
 
 // our random seed. this allows all randomness to be reproducable.
-const generator = new Math.seedrandom('in c is the best');
+const urlParams = new URLSearchParams(window.location.search);
+const seed = urlParams.get("seed") || "in c is the best";
+
+const generator = new Math.seedrandom(seed);
 const container = document.querySelector('.container');
 // how much visual history to store
 const hist_depth = 250;
